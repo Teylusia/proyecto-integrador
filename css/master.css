@@ -6,3 +6,31 @@
 img{
     width: 100%;
 }
+.header{
+    background-color: black;
+    display: flex;
+}
+.logo{
+    width: 10%;
+}
+.menu{
+    display: flex;
+}
+.webs{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.webs li{
+    list-style-type: none;
+}
+.webs li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #0092CC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.webs li a:hover{
+    text-decoration: underline;
