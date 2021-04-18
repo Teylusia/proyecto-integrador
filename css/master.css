@@ -59,10 +59,10 @@ padding-top: 65px;
 .titulo{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    background-color: rgba(248, 228, 114, 0.952);
+    background-color:goldenrod;
 }
 .lista{
-    background-color:rgba(253, 255, 128, 0.863);
+    background-color: gold;
     display: flex; 
     flex-direction: column;
     text-align: center;
