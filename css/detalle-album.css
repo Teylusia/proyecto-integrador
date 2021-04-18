@@ -1,21 +1,42 @@
 *{
     box-sizing: border-box;
+    
     padding: 0;
     margin: 0;
-    color: white;
+    color: lightgray;
 }
 img{
     width: 100%;
 }
-.foto-de-album{
-    width: 20%;
-    display: flex;
-    padding:2px;
-    background-color: greenyellow;
-}
 .informacion{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    
 }
-.informacion h1{
-    color: goldenrod;
+.titulo-info{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.foto-album{
+    width: 15%;
+    padding: 2px;
+    background-color: goldenrod;
+}
+.album-nombre{
+    font-size: 24px;
+    color: gold;
+}
+.descripcion{
+    text-align: justify;
+}
+.album-canciones{
+    
+}
+.canciones{
+padding-left: 10px;
+}
+.canciones li{
+    margin: 10px;
+    list-style-type: square;
+    color: gold ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
