@@ -6,6 +6,9 @@
 img{
     width: 100%;
 }
+body{
+    background-color: black;
+}
 .header{
     background-color: rgb(8, 8, 8);
     display: flex;
@@ -106,4 +109,17 @@ h5{
         width: 30%;
     }
     
+}
+.ver-mas{
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.titulo-album{
+    text-decoration: none;
+    color: black;
+}
+.titulo-album:hover{
+    text-decoration: underline;
+    color: crimson;
 }
