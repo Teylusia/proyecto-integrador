@@ -31,8 +31,16 @@ padding-left: 10px;
 .canciones li{
     margin: 10px;
     list-style-type: square;
-    color: gold ;
+    color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.canciones li a{
+    text-decoration: none;
+    color: brown;
+}
+.canciones li a:hover{
+    text-decoration: underline;
+    color: gold;
 }
 .genero{
     text-decoration: none;
