@@ -23,6 +23,7 @@ img{
 }
 .descripcion{
     text-align: justify;
+    padding-top: 10px;
 }
 .canciones{
 padding-left: 10px;
@@ -33,7 +34,22 @@ padding-left: 10px;
     color: gold ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.genero{
+    text-decoration: none;
+    color: orange;
+}
+.artista{
+    text-decoration: none;
+    color: orange;
+}
+.genero:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+.artista:hover{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
 
 @media (min-width: 280px){
     .informacion{
