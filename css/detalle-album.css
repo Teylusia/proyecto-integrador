@@ -5,12 +5,17 @@
     margin: 0;
     color: lightgray;
 }
+body{
+    background-color: gold;
+}
 img{
     width: 100%;
 }
 .titulo-info{
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 }
 .foto-album{
     width: 15%;
@@ -19,7 +24,7 @@ img{
 }
 .album-nombre{
     font-size: 24px;
-    color: gold;
+    color: black;
 }
 .descripcion{
     text-align: justify;
@@ -33,14 +38,15 @@ padding-left: 10px;
     list-style-type: square;
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
 }
 .canciones li a{
     text-decoration: none;
-    color: brown;
+    color:goldenrod;
 }
 .canciones li a:hover{
     text-decoration: underline;
-    color: gold;
+    color:white;
 }
 .genero{
     text-decoration: none;
@@ -57,6 +63,10 @@ padding-left: 10px;
 .artista:hover{
     color: darkgoldenrod;
     text-decoration: underline;
+}
+.album-canciones{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 @media (min-width: 280px){
@@ -75,15 +85,26 @@ padding-left: 10px;
     .album-nombre{
         text-align: center;
     }
+    .descripcion{
+        color: white;
+    }
 
 }
 @media (min-width: 1024px){
     .informacion{
         display: flex;
+        flex-direction: column;
+    }
+    .album-canciones{
+        text-align: center;
     }
     .foto-album{
         width: 250px;
         padding: 2px;
         background-color: goldenrod;
+    }
+    body{
+        background-image: url(../img/Arctic\ Monkeys\,\ Lewis\ Capaldi\,\ and\ more\ donate\ items\ to\ NHS\ Fest\ raffle.jpg);
+        background-size: 100%;
     }
 }
