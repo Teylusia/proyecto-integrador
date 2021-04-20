@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.body{
+    font-family:sans-serif;
+}
+.foto-cancion{
+    width: 25%;
+    padding: 2px;
+    background-color: goldenrod;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  /*https://www.solvetic.com/tutoriales/article/2831-como-centrar-una-imagen-con-html-y-css/ */
+}
+.play{
+    color: white;
+    text-align: center;
+
+}
+.info-titulo{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nombre-cancion{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    filter: glow(color=white,strength=2.5);
+    text-shadow: wheat 0 0 10px, goldenrod 5px 5px 5px; /*https://html.dokry.com/10700*/
+}
+.info-extra{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.descripcion-cancion{
+    padding: 10px;
+    color: goldenrod;
+    text-align: center;
+}
+.masinfo{
+    padding:10px;
+    color: white;
+    text-align: center;
+}
