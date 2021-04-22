@@ -3,36 +3,90 @@
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+
+/*-------------HEADER---------------*/
+
 
 .header{
     background-color: rgb(8, 8, 8);
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 .logo{
-    padding: 10px;
+ padding-left: 5px;
+    width: 25%;
 }
 
 .webs{
-    display: flex;
+    display: block;
     width: 100%;
     justify-content: space-around;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     padding: 10px;
+    text-align: center;
 }
-.webs li a{
-    text-decoration: none;
+
+.webs a{
+    float: left;
+    display: block;
     color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
-.webs li{
-    list-style-type: none;
-}
-.webs li a:hover{
+
+.webs a:hover{
     color: rgb(224, 241, 63);
 }
+
+.webs .buscador{
+    float: right;
+}
+
+.webs .buscador button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.webs .buscador button:hover {
+    background: #ccc;
+}
+
+  .webs input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.webs .buscador{
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    background-color: blue;
+}
+
+
+/*---------------- HOMEPAGE DEL SITIO--------------*/
+
+
 .banner h1{
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 color: white;
@@ -46,6 +100,7 @@ background-repeat: no-repeat;
 background-size: auto;
 background-size: 100%;
 }
+
 .container{
     display: flex;
     flex-direction:column; 
@@ -56,12 +111,14 @@ background-size: 100%;
     text-align: center;
     background-color:goldenrod;
 }
+
 .lista{
     background-color: gold;
     display: flex; 
     flex-direction: column;
     text-align: center;
 }
+
 .producto{
     display: flex;
     flex-direction: column;
@@ -69,12 +126,13 @@ background-size: 100%;
     font-family: sans-serif;
     font-size: 15px;
     width: 100%;
-    
 }
+
 .productos{
     display: flex;
     flex-wrap: wrap;
 }
+
 .fotuli{
     width: 60%;
     border: solid 20px rgba(3, 3, 3, 0.904);
@@ -86,10 +144,27 @@ background-size: 100%;
     justify-content: space-between;
     align-items: center;
 }
+
 h5{
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
+}
+
+.ver-mas{
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo-album{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-album:hover{
+    text-decoration: underline;
+    color: crimson;
 }
 
 @media(min-width:1024px){
@@ -104,18 +179,26 @@ h5{
     .producto{
         width: 30%;
     }
-    
-}
-.ver-mas{
-    text-decoration: none;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.titulo-album{
-    text-decoration: none;
-    color: black;
-}
-.titulo-album:hover{
-    text-decoration: underline;
-    color: crimson;
+    .webs{
+        display: flex;
+    }
+    .webs a{
+        overflow: hidden;
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+    }
+    .logo{
+        width: 3%;
+    }
+    .buscador-webs{
+        width: 100%;
+    }
+    .buscador{
+        align-items: center;
+    }
 }

@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favoritos</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/favoritos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/favoritos.css">
 </head>
 <body class="body">
-    <header class="header">
-        <span class="logo">
-            <img src="img/logo1.png" alt="logo">
-        </span>
-            <ul class="webs">
-                <li><a href="home.html" target="_blank">Home</a></li>
-                <li><a href="#" target="_blank">Favoritos</a></li>
-                <li><a href="genero.html" target="_blank">Géneros</a></li>
-                <li><a href="#" target="_blank">Resultado de búsqueda</a></li>
-                <li><a href="detalle-album.html" target="_blank">Álbumes</a></li>
-                <li><a href="#" target="_blank">Canciones</a></li>
-                <li><a href="#" target="_blank">Artistas</a></li>
-            </ul>
-    </header>
+            <header class="header">
+            <span class="logo">
+                <img src="img/logo1.png" alt="logo">
+            </span>
+
+
+            <div class="webs">
+                <a href="favoritos.html" target="_blank">Favoritos</a></li>
+                <a href="home.html" target="_blank">Home</a></li>
+                <a href="genero.html" target="_blank">Géneros</a></li>
+                    <div class="buscador">
+                        <input type="text" placeholder="Buscar..." name="buscador"></li>
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                <a href="detalle-album.html" target="_blank">Álbumes</a></li>
+                <a href="detalle-cancion.html" target="_blank">Canciones</a></li>
+                <a href="detalle-artista.html" target="_blank">Artistas</a></li>
+            </div>
+
+        </header>
 <main>
 
     <section class="inicio">
@@ -39,7 +44,10 @@
     <section class="Cancion">
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li>
+                <i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            </li>
             <li><h3><a class="nombre" href="detalle-cancion.html" target="_blank">Do I Wanna Know?</a></h3></li>
             <li><i class="nombre">4 m 36 s</i></li>
             <li><a class="nombre" href="detalle-artista.html" target="_blank">Arctic Monkeys</a></li>
@@ -51,7 +59,8 @@
     <section>
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li><i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
             <li><h3><a class="nombre" href="#">N. 1 Party Anthem</a></h3></li>
             <li><i class="nombre">2 m 41 s</i></li>
             <li><a class="nombre" href="detalle-artista.html" target="_blank">Arctic Monkeys</a></li>
@@ -63,7 +72,8 @@
     <section>
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li><i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
             <li><h3><a class="nombre" href="#">Mr Perfectly Fine</a></h3></li>
             <li><i class="nombre">4 m 37 s</i></li>
             <li><a class="nombre" href="#">Taylor Swift</a></li>
@@ -75,7 +85,8 @@
     <section>
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li><i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
             <li><h3><a class="nombre" href="#">Bohemian Rhapsody</a></h3></li>
             <li><i class="nombre">5 m 54 s</i></li>
             <li><a class="nombre" href="#">Queen</a></li>
@@ -87,7 +98,8 @@
     <section>
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li><i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
             <li><h3><a class="nombre" href="#">7 Rings</a></h3></li>
             <li><i class="nombre">2 m 58 s</i></li>
             <li><a class="nombre" href="#">Ariana Grande</a></li>
@@ -99,7 +111,8 @@
     <section>
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li><i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
             <li><h3><a class="nombre" href="#">The Spins</a></h3></li>
             <li><i class="nombre">3 m 15 s</i></li>
             <li><a class="nombre" href="#">Mac Miller</a></li>
@@ -111,7 +124,8 @@
     <section>
         <ul class="cancion">
             <li><i style="color: goldenrod;" class="fas fa-heart"></i><i style="color:goldenrod; font-weight: bold;">| Me Gusta</i>
-            <li><i style="color: white;" class="fas fa-play-circle"></i><a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
+            <li><i style="color: white;" class="fas fa-play-circle"></i>
+                <a style="color: white; text-decoration: none; list-style-type: none;" href="#">| Reproducir</a>
             <li><h3><a class="nombre" href="#">Save Your Tears</a></h3></li>
             <li><i class="nombre">3 m 36 s</i></li>
             <li><a class="nombre" href="#">The Weeknd</a></li>

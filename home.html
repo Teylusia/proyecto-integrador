@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css\master.css">
     <title>Homepage</title>
 </head>
@@ -16,18 +17,23 @@
             <span class="logo">
                 <img src="img/logo1.png" alt="logo">
             </span>
+            <nav class="buscador-webs">
+                <div class="webs">
+                <a href="favoritos.html" target="_blank">Favoritos</a>
+                <a href="home.html" target="_blank">Home</a>
+                <a href="genero.html" target="_blank">Géneros</a>
+                <a href="detalle-album.html" target="_blank">Álbumes</a>
+                <a href="detalle-cancion.html" target="_blank">Canciones</a>
+                <a href="detalle-artista.html" target="_blank">Artistas</a>
+                </div>
 
-
-            <ul class="webs">
-                <li><a href="home.html" target="_blank">Home</a></li>
-                <li><a href="favoritos.html" target="_blank">Favoritos</a></li>
-                <li><a href="genero.html" target="_blank">Géneros</a></li>
-                <li><input type="text" placeholder="Buscar..." class="buscador"></li>
-                <li><a href="detalle-album.html" target="_blank">Álbumes</a></li>
-                <li><a href="detalle-cancion.html" target="_blank">Canciones</a></li>
-                <li><a href="detalle-artista.html" target="_blank">Artistas</a></li>
-            </ul>
-
+                <div class="buscador">
+                    <form method="GET" action="resultado-busqueda.html">
+                        <input type="text" placeholder="Buscar..." name="buscador">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
         </header>
         <section class="banner">
             <h1>Louder!</h1>
@@ -263,15 +269,15 @@
             </span>
 
 
-                <ul class="webs">
-                    <li><a href="home.html" target="_blank">Home</a></li>
-                    <li><a href="favoritos.html" target="_blank">Favoritos</a></li>
-                    <li><a href="genero.html" target="_blank">Géneros</a></li>
-                    <li><a href="resultado-busqueda.html" target="_blank">Resultado de búsqueda</a></li>
-                    <li><a href="detalle-album.html" target="_blank">Álbumes</a></li>
-                    <li><a href="detalle-cancion.html" target="_blank">Canciones</a></li>
-                    <li><a href="detalle-artista.html" target="_blank">Artistas</a></li>
-                </ul>
+                <div class="webs">
+                    <a href="home.html" target="_blank">Home</a></li>
+                    <a href="favoritos.html" target="_blank">Favoritos</a></li>
+                    <a href="genero.html" target="_blank">Géneros</a></li>
+                    <a href="resultado-busqueda.html" target="_blank">Resultado de búsqueda</a></li>
+                    <a href="detalle-album.html" target="_blank">Álbumes</a></li>
+                    <a href="detalle-cancion.html" target="_blank">Canciones</a></li>
+                    <a href="detalle-artista.html" target="_blank">Artistas</a></li>
+                </div>
                 <h5>Integrantes: Taylor Agustín, Moroni Martina, Russell María Paz</h5>
         </footer>
 
