@@ -8,7 +8,6 @@
 }
 .body{
     font-family: 'Kanit', sans-serif;
-    background-image: url(../img/concert.jpg);
 }
 .inicio{
     color: goldenrod;
@@ -26,7 +25,6 @@
 .nombre{
     display: flex;
     text-decoration: none;
-
     color: white;
 }
 
