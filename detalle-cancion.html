@@ -4,62 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canción - Do I Wanna Know?</title>
-    <link rel="stylesheet" href="css/cancion.css">
+    <title>Canción</title>
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/cancion.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;900&display=swap" rel="stylesheet">
+
+
 <body class="body">
+  <main>
     <header class="header">
         <span class="logo">
-            <img src="img/logo1.png" alt="logo">
+          <img src="img/logo1.png" alt="logo">
         </span>
 
-            <ul class="webs">
-                <li><a href="home.html" target="_blank">Home</a></li>
-                <li><a href="favoritos.html" target="_blank">Favoritos</a></li>
-                <li><a href="genero.html" target="_blank">Géneros</a></li>
-                <li><input type="text" placeholder="Buscar..."></li>
-                <li><a href="detalle-album.html" target="_blank">Álbumes</a></li>
-                <li><a href="detalle-cancion.html" target="_blank">Canciones</a></li>
-                <li><a href="detalle-artista.html" target="_blank">Artistas</a></li>
-            </ul>
-    </header>
-<main>
-    <section class="foto-portada-cancion">
-        <img class="foto-cancion" src="img/foto-portada-album-artic.jpg" alt="">
-    </section>
-     
-    <div class="flex-container">
-        <div><i style="color: azure; font-size: xx-large;" class="fas fa-play-circle"></i></div>
-        <div><h3 class="play">REPRODUCIR</h3></li></div>
-      </div>
-   
-    
-</div>
+       <ul class="webs">
+            <li><a href="home.html" target="_blank">Home</a></li>
+            <li><a href="favoritos.html" target="_blank">Favoritos</a></li>
+            <li><a href="genero.html" target="_blank">Géneros</a></li>
+            <li><input type="text" placeholder="Buscar..." class="buscador"></li>
+            <li><a href="detalle-album.html" target="_blank">Álbumes</a></li>
+            <li><a href="detalle-cancion.html" target="_blank">Canciones</a></li>
+            <li><a href="detalle-artista.html" target="_blank">Artistas</a></li>
+        </ul>
+  </main>
 
-        
-        <section class="info-titulo">
-            <h1 class="nombre-cancion">Do I Wanna Know?</h1>
-            <h4 class="info-extra">Arctic Monkeys</h4>
+  <main class="contenido">
            
-            <h4 class="masinfo">1 canción | 4 min 32 s</h4>
-            <h3 class="descripcion-cancion">«Do I Wanna Know?» es una canción de la banda británica de indie rock, Arctic Monkeys, de su quinto álbum, AM. A pesar de haber sido un lanzamiento venta al aire, la canción entró en las listas de sencillos del Reino Unido en el número 11,​ siendo el sencillo que llegó más alto en las listas de UK Singles desde The Killers en 2007.En los Estados Unidos, la canción fue la primera de la banda de rock alternativo en ingresar a la lista Billboard Hot 100 llegando a ocupar el número 70. </h3>
-            
-            <h4 class="play">Play on YouTube</h4>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/1tWFk8ojF4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="info-extra">Sencillo | 2013</h3> 
-            <h5 class="masinfo">Publicado: 18 de julio de 2013</h5> 
-            
+    <section class="portada">
+        <img class="fotoPortada" src="img/foto-portada-album-artic.jpg" alt="PortadaCanción">
+      </section>
+    
+    <section class="reproducir">
+        <ul class="reproducir2">
+            <li><i style="color: goldenrod;" class="fas fa-play-circle"></i></li>
+            <li><a href="#">| Reproducir</a></li>
+        </ul>
+    </section>
 
-ver album completo
+    <section class="tituloCancion">
+        <h1 class="tituloCancion">Do I Wanna Know?</h1>
+    </section>
+
+    <section class="favoritos">
+        <ul class="Favoritos">
+            <li><i class="fas fa-heart"></i></li>
+            <li><a class="fav" href="#">Agregar a mis Favoritos | </a></li>
+            <li><i class="fas fa-heart"></i></li>
+            <li><a class="fav" href="favoritos.html" target="_blank">Ver mis Favoritos</a></li>
+        </ul>
+    </section>
+
+    <section class="infoCancion">
+        <ul class="infoCancion2">
+            <li class="infoCancion2"><i style="color: goldenrod;" class="fas fa-music"></i>| 1 canción | 4 min 32 s</li>
+            <li><i style="color: goldenrod;" class="fas fa-compact-disc"></i><a class="linkalbum" href="detalle-album.html" target="_blank">| Álbum AM: Ver álbum completo</a></li>
+        </ul>
+    </section>
+
+    <section class="masinformacion">
+        <ul class="masinformacion2">   
+            <li class="masinformaciontexto">«Do I Wanna Know?» es una canción de la banda británica de indie rock, Arctic Monkeys, de su quinto álbum, AM. A pesar de haber sido un lanzamiento venta al aire, la canción entró en las listas de sencillos del Reino Unido en el número 11,​ siendo el sencillo que llegó más alto en las listas de UK Singles desde The Killers en 2007.En los Estados Unidos, la canción fue la primera de la banda de rock alternativo en ingresar a la lista Billboard Hot 100 llegando a ocupar el número 70.</li>
+        </ul>
+    
+        <section class="infoartista">
+            <ul class="infoArtista">
+                <li><a class="linkarctic" href="detalle-artista.html" target="_blank">Artista: Arctic Monkeys</a></li>
+                <li class="fotoarctic"><img src="img/Arctic-Monkeys.jpg" alt="ArcticMonkeys"></li>
+            </ul>
         </section>
-    </section>
-</div>
-    <section>
+    
 
-    </section>
+    <section class="youtube">
+        <ul class="YouTube">
+            <li class="veryoutube">Ver en YouTube</li>
+            
+            <li class="videosyoutube"><iframe class="videoyoutube" width="390" height="290" src="https://www.youtube.com/embed/1tWFk8ojF4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe class="videoyoutube" width="390" height="290" src="https://www.youtube.com/embed/bjHs5N0dzBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe class="videoyoutube" width="390" height="290" src="https://www.youtube.com/embed/Fn2OfRGbxwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
 
+            
+        </ul>   
+    </section>
+            <li><h5 class="infoExtra">Publicado: 18 de julio de 2013</h5> </li>
+</main>
+
+ <main>
     <footer class="footer">
         <span class="logo">
             <img src="img/logo1.png" alt="logo">
@@ -75,8 +104,7 @@ ver album completo
             </ul>
             <h5>Integrantes: Taylor Agustín, Moroni Martina, Russell María Paz</h5>
     </footer>
-
 </main>
-
+        
 </body>
 </html>
