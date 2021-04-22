@@ -3,8 +3,12 @@
     margin: 0;
     padding: 0;
 }
+.img{
+    width: 100%;
+}
 .body{
     font-family: 'Kanit', sans-serif;
+    background-image: url(../img/concert.jpg);
 }
 .inicio{
     color: goldenrod;
@@ -16,12 +20,13 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 2%;
-    margin-right: 2%;
+    margin-right: 2%;    
+    list-style-type: none;
 }
 .nombre{
     display: flex;
     text-decoration: none;
-    list-style-type: none;
+
     color: white;
 }
 
