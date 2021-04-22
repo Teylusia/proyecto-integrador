@@ -103,14 +103,22 @@ img{
 }
 .YouTube{
     text-align: left;
-    margin-left: 4%;
-    margin-top: 7%;
+    margin-left: 2%;
+    margin-top: 8%;
     color: goldenrod;
     text-decoration: none;
     padding: 2px;
     font-size: larger;
     text-decoration: none;
     list-style-type: none;
+}
+.videosyoutube{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.videoyoutube{
+    display: flex
 }
 .infoExtra{
     text-align: right;
