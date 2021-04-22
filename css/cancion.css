@@ -125,4 +125,9 @@ img{
     margin-bottom: 1%;
     font-size: small;
 }
- 
+
+@media (min-width: 1024px){
+    .body{
+        background-size: 100%;
+    }
+}

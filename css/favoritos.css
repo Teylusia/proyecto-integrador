@@ -26,5 +26,9 @@
     display: flex;
     text-decoration: none;
     color: white;
+    width: 170px;
+}
+ul li i{
+    width: 20px;
 }
 
