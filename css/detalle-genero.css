@@ -33,7 +33,9 @@
 .bandas-indie{
     display: none;
 }
-
+.p1{
+    display: none;
+}
 
 @media (min-width: 1024px){
     .body{
@@ -71,5 +73,6 @@
         height: 10vh;
         
     }
+
 
 }
