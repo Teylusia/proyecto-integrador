@@ -12,26 +12,28 @@
     <link rel="stylesheet" href="css/favoritos.css">
 </head>
 <body class="body">
-            <header class="header">
-            <span class="logo">
-                <img src="img/logo1.png" alt="logo">
-            </span>
-
-
+    <header class="header">
+        <span class="logo">
+            <img src="img/logo1.png" alt="logo">
+        </span>
+        <nav class="buscador-webs">
             <div class="webs">
-                <a href="favoritos.html" target="_blank">Favoritos</a></li>
-                <a href="home.html" target="_blank">Home</a></li>
-                <a href="genero.html" target="_blank">Géneros</a></li>
-                    <div class="buscador">
-                        <input type="text" placeholder="Buscar..." name="buscador"></li>
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </div>
-                <a href="detalle-album.html" target="_blank">Álbumes</a></li>
-                <a href="detalle-cancion.html" target="_blank">Canciones</a></li>
-                <a href="detalle-artista.html" target="_blank">Artistas</a></li>
+            <a href="favoritos.html" target="_blank">Favoritos</a>
+            <a href="home.html" target="_blank">Home</a>
+            <a href="genero.html" target="_blank">Géneros</a>
+            <a href="detalle-album.html" target="_blank">Álbumes</a>
+            <a href="detalle-cancion.html" target="_blank">Canciones</a>
+            <a href="detalle-artista.html" target="_blank">Artistas</a>
             </div>
 
-        </header>
+            <div class="buscador">
+                <form method="GET" action="resultado-busqueda.html">
+                    <input type="text" placeholder="Buscar..." name="buscador">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
 <main>
 
     <section class="inicio">

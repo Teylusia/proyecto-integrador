@@ -80,9 +80,12 @@ body{
     display: block;
     text-align: center;
     padding: 14px;
-    background-color: blue;
 }
-
+form input{
+    text-align: center;
+    float: unset;
+    margin-bottom: 12px;
+}
 
 /*---------------- HOMEPAGE DEL SITIO--------------*/
 
