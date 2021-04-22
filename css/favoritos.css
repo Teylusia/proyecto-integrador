@@ -1,4 +1,11 @@
-.container{
-    display: block;
-
+.body{
+    font-family: 'Kanit', sans-serif;
+}
+.inicio{
+    color: goldenrod;
+    text-align: center;
+}
+cancion1{
+    display: flex;
+    flex-direction: row;
 }
