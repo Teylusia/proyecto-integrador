@@ -42,6 +42,7 @@ body{
 }
 .integrantes{
     display: none;
+    margin-top: 60px;
 }
 .cancion{
     text-decoration: none;
