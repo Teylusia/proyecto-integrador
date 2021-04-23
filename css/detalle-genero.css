@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     margin: 5%;
-    height: 100vh;
+    height: 120vh;
     
 }
 .bandas-indie{
@@ -35,6 +35,9 @@
 }
 .p1{
     display: none;
+}
+.img{
+    width: 100%;
 }
 
 @media (min-width: 1024px){
@@ -73,6 +76,8 @@
         height: 10vh;
         
     }
-
+    .titulo-info img{
+        display: none;
+    }
 
 }

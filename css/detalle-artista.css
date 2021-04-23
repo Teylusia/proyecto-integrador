@@ -4,7 +4,75 @@
     padding: 0;
 }
 body{
-   background-image: url(../img/Arctic\ Monkeys\ Wallpapers\ HD\ _\ Desktop\ and\ Mobile\ Backgrounds\ \(1\).jpg); 
-   background-size: 100%;
-   background-repeat: no-repeat;
+    background-color: gold;
+}
+.banda h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: rgb(71, 170, 177);
+    
+}
+.banda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    height: 150vh;
+}
+.banda p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    background-color: rgb(0, 0, 0, 0.3)
+}
+.integrantes{
+    display: none;
+}
+img{
+    width: 100%;
+}
+
+@media (min-width: 1024px){
+    body{
+        background-image: url(../img/Arctic\ Monkeys\ Wallpapers\ HD\ _\ Desktop\ and\ Mobile\ Backgrounds\ \(1\).jpg); 
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    .artista{
+        display: flex;
+        flex-direction: column;
+    }
+    .integrantes{
+        display: flex;
+        flex-direction: row;
+    }
+    .integrantes1{
+        display: flex;
+        flex-direction: row;
+        margin: 10%;
+        width: 90%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        color: white;
+        
+    }
+    .los-monos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1%;
+        width: 100%;
+    }
+    .banda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+        height: 10vh;
+    }
+    .banda img{
+        display: none;
+    }
 }
