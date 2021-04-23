@@ -5,7 +5,6 @@
 }
 body{
     background-color: gold;
-    font-family: 'Kanit', sans-serif;
 }
 img{
     width: 100%;
@@ -13,6 +12,7 @@ img{
 .titulo-info{
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 }
 .foto-album{
@@ -42,12 +42,12 @@ padding-left: 10px;
     margin: 10px;
     list-style-type: square;
     color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
 }
 .canciones li a{
     text-decoration: none;
     color:goldenrod;
-    font-weight: bolder;
 }
 .canciones li a:hover{
     text-decoration: underline;
@@ -70,6 +70,7 @@ padding-left: 10px;
     text-decoration: underline;
 }
 .album-canciones{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
     .informacion{

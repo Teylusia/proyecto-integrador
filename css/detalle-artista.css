@@ -5,10 +5,9 @@
 }
 body{
     background-color: gold;
-    font-family: 'Kanit', sans-serif;
-    font-weight: bolder;
 }
 .banda h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
     font-size: 50px;
     color: rgb(71, 170, 177);
@@ -24,15 +23,18 @@ body{
 }
 .topcanciones ul li{
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     justify-content: flex-start;
     background-color: rgba(145, 109, 31, 0.3);
     color: white;
+    
 }
 .topcanciones ul{
     text-align: left;
 }
 .banda p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: white;
     margin: 10px;
@@ -40,6 +42,14 @@ body{
 }
 .integrantes{
     display: none;
+}
+.cancion{
+    text-decoration: none;
+    color: white;
+}
+.cancion:hover{
+    text-decoration: underline;
+    color: rgb(71, 170, 177);
 }
 img{
     width: 100%;
@@ -57,6 +67,7 @@ img{
         flex-direction: column;
     }
     .integrantes{
+        margin-top: 75px;
         display: flex;
         flex-direction: row;
     }

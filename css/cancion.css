@@ -134,20 +134,19 @@ li a:hover{
         background-size: 100%;
     }
     .fotoPortada{
-        margin-left: 29%;
+        margin-left: 33%;
         width: 45%;
     }
     .reproducir2 li{
-        font-size: 48%; 
+        font-size: 52%; 
     }
     .tituloCancion{
-        font-size: 150%;
-        margin: 6%;
-        text-align: center;
+        font-size: 50px;
     }
+
     .Favoritos{
         font-size: 75%;
-        width: 70%;
+        width: 65%;
     }
     .masinformaciontexto{
         display: none;
