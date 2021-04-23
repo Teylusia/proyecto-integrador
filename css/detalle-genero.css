@@ -8,17 +8,16 @@
 .body{
     background-color: gold;
     font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
 }
 
 .titulo-info h1{
     font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(241, 53, 147);
     font-style: oblique;  
 }
 .titulo-info p{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     font-size: medium;
     
@@ -62,7 +61,6 @@
         margin: 10%;
         width: 90%;
     
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: medium;
         
     }
