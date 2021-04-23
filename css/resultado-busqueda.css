@@ -8,6 +8,7 @@ img{
 }
 body{
     background-image: url();
+    font-family: 'Kanit', sans-serif;
 }
 .resultado-busqueda{
     color: white;
