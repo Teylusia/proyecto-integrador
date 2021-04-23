@@ -19,19 +19,26 @@ img{
     width: 15%;
     padding: 2px;
     background-color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    justify-content: space-around;
 }
 .album-nombre{
     font-size: 24px;
     color: black;
+    text-align: center;
 }
 .descripcion{
     text-align: justify;
     padding-top: 10px;
+    color: white;
 }
 .canciones{
 padding-left: 10px;
 }
-.canciones li{
+.canciones li a{
     margin: 10px;
     list-style-type: square;
     color: brown;
@@ -66,28 +73,9 @@ padding-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-
-@media (min-width: 280px){
     .informacion{
         display: block;
     }
-    .foto-album{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    .foto-album{
-        width: 50%;
-        justify-content: space-around;
-    }
-    .album-nombre{
-        text-align: center;
-    }
-    .descripcion{
-        color: white;
-    }
-
-}
 @media (min-width: 1024px){
     .informacion{
         display: flex;
