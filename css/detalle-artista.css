@@ -20,6 +20,18 @@ body{
     align-items: center;
     margin: 3%;
     height: 150vh;
+    
+}
+.topcanciones ul li{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    justify-content: flex-start;
+    background-color: rgba(145, 109, 31, 0.3);
+    color: white;
+}
+.topcanciones ul{
+    text-align: left;
 }
 .banda p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
