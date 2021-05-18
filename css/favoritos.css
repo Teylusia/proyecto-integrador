@@ -9,7 +9,6 @@
 .inicio{
     color: goldenrod;
     text-align: center;
-    margin-bottom: 6%;
 }
 .nombre{
     display: flex;
@@ -21,4 +20,22 @@ a:hover{
 }
 .canciones-favoritas{
     width: 100%;
+    font-size: 14px;
+}
+.canciones-favoritas td{
+    border: 1px double goldenrod;
+    border-collapse: collapse;
+}
+@media(min-width:1024px){
+    .canciones-favoritas td{
+        border: none;
+    }
+    .canciones-favoritas {
+        justify-content: space-around;
+        background-color: green;
+        
+    }
+    .inicio{
+        background-color: greenyellow;
+    }
 }
