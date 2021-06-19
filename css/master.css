@@ -124,6 +124,9 @@ background-position: center;
     font-size: 15px;
     width: 30%;   
 }
+.producto:hover{
+    background-color: rgba(218, 165, 32, 0.336);
+}
 
 .album{
     display: flex;

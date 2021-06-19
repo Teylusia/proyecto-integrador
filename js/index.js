@@ -91,7 +91,6 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks
                 <h4><a class="titulo-album "href="detalle-album.html" target="_blank">${canciones[i].artist.name}</a>
                 <br>
                 <a href="detalle-album.html" target="_blank" class="ver-mas">Ver Mas...</a>
-                </a>
             </nav>
         </nav>
     
