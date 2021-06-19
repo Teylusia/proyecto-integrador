@@ -1,0 +1,146 @@
+<!-- <nav class="producto">  -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://http2.mlstatic.com/D_NQ_NP_608325-MLA25423556992_032017-O.jpg" alt="albúm AM"> -->
+                            <!-- <h3><a class="titulo-album "href="detalle-album.html" target="_blank">AM</a></h3> -->
+                        <!-- </nav> -->
+                        <!-- <p>es el quinto álbum de estudio de la banda inglesa de Indie Rock, Arctic Monkeys.</p> -->
+                        <!-- <a href="detalle-album.html" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                     <!-- </nav>   -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class= "fotuli" src="https://www.nacionrock.com/wp-content/uploads/Queen_-_A_Night_at_the_Opera.jpg" alt="Queen a night at the opera">
+                            <h3 class="titulo-album">A Night At The Opera</h3> -->
+                        <!-- </nav> -->
+                        <!-- <p>es el cuarto álbum de estudio de la banda británica de rock Queen, publicado originalmente en 1975.</p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                     <!-- </nav> -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://cdns-images.dzcdn.net/images/cover/47bd32cfe1f46923ed5029aba49f245d/500x500.jpg" alt="albúm AM"> -->
+                            <!-- <h3 class="titulo-album"> Thank U Next </h3> -->
+                        <!-- </nav> -->
+                        <!-- <p>es el quinto álbum de estudio de la cantante y actriz estadounidense Ariana Grande.</p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                     <!-- </nav> -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://m.media-amazon.com/images/I/51cnOAEJV7L._SL500_.jpg" alt="Fearless"> -->
+                            <!-- <h3 class="titulo-album">Fearless</h3> -->
+                        <!-- </nav> -->
+                        <!-- <p>es el segundo álbum de estudio de la cantante estadounidense de country y pop Taylor Swift </p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                    <!-- </nav>  -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://img.discogs.com/Hdl5CDQI45ky3ujO6G-IlEbV6i0=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4635984-1370630376-9222.jpeg.jpg" alt="Kids"> -->
+                            <!-- <h3 class="titulo-album"> Kids</h3> -->
+                        <!-- </nav> -->
+                        <!-- <p> es el cuarto mixtape del rapero estadounidense Mac Miller. Fue lanzado por Rostrum Records el 13 de agosto de 2010, a través de DatPiff.</p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                     <!-- </nav>  -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://http2.mlstatic.com/D_NQ_NP_849300-MLA41377190618_042020-O.jpg" alt="Future Nostalgia"> -->
+                            <!-- <h3 class="titulo-album"> Future Nostalgia </h3> -->
+                        <!-- </nav> -->
+                        <!-- <p> es el segundo álbum de estudio de la cantante británica Dua Lipa.1​2​ Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records.</p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                     <!-- </nav>  -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://http2.mlstatic.com/D_NQ_NP_975870-MLA41252145366_032020-O.jpg" alt="albúm After hours"> -->
+                            <!-- <h3 class="titulo-album">After Hours></h3> -->
+                        <!-- </nav> -->
+                        <!-- <p> es el cuarto álbum de estudio del cantante canadiense The Weeknd. Fue lanzado el 20 de marzo de 2020 por XO y Republic Records.</p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                    <!-- </nav>  -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://img.discogs.com/JwDQJHI0dn7Ecva1R4DXkoQIMXQ=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-16351725-1607218957-5659.jpeg.jpg" alt="albúm Plastic hearts"> -->
+                            <!-- <h3 class="titulo-album">Plastic hearts</h3> -->
+                        <!-- </nav> -->
+                        <!-- <p>es el séptimo álbum de estudio de la cantante estadounidense Miley Cyrus. Fue lanzando el 27 de noviembre de 2020 a través de RCA Records.</p> -->
+                        <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                    <!-- </nav>  -->
+                    <!-- <nav class="producto1"> -->
+                        <!-- <nav class="hola"> -->
+                            <!-- <img class="fotuli" src="https://http2.mlstatic.com/D_NQ_NP_608325-MLA25423556992_032017-O.jpg" alt="albúm AM"> -->
+                            <!-- <h3><a class="titulo-album "href="detalle-album.html" target="_blank">AM</a></h3> -->
+                        <!-- </nav> -->
+                        <!-- <p>es el quinto álbum de estudio de la banda inglesa de Indie Rock, Arctic Monkeys.</p> -->
+                        <!-- <a href="detalle-album.html" target="_blank" class="ver-mas">Ver Mas...</a> -->
+
+
+
+                        <!-- <nav class="producto">
+                            <nav class="hola">
+                                <img class="fotuli" src="https://i.pinimg.com/originals/51/32/82/5132827b672c2e7cf947bb21efb03475.jpg" alt="Arctic Monkeys">
+                                <h3> Arctic Monkeys</h3>
+                            </nav>
+                            <p> banda británica de rock, formada en Sheffield, Reino Unido.3​ El grupo está compuesto por el guitarrista principal y vocalista Alex Turner, el guitarrista Jamie Cook, el baterista Matt Helders, y con Nick O'Malley en el bajo.</p>
+                            <a href="detalle-artista.html" target="_blank" class="ver-mas">Ver Mas...</a>
+                        </nav>
+                        <nav class="producto">
+                            <nav class="hola">
+                                <img class= "fotuli" src="https://historiasdelsubsuelohome.files.wordpress.com/2019/02/queen02.png" alt="Banda Queen">
+                                <h3>Queen</h3>
+                            </nav>
+                            <p> banda británica de rock formada en 1970 en Londres por el cantante y pianista Freddie Mercury, el guitarrista Brian May, el baterista Roger Taylor y el bajista John Deacon.</p>
+                            <a href="" target="_blank" class="ver-mas">Ver Mas...</a> -->
+                        <!-- </nav> -->
+                        <!-- <nav class="producto">
+                            <nav class="hola">
+                                <img class="fotuli" src="https://i.pinimg.com/564x/68/c9/a8/68c9a88843c9e6f4dfb6f7072e2fac82.jpg" alt="Ariana Grande">
+                                <h3> Ariana Grande </h3>
+                            </nav>
+                            <p>​ cantante, compositora,comenzó en 2011 con la banda sonora de Victorious. Desde entonces, Grande ha logrado posicionar 5 álbumes en la primera posición dentro del Billboard 200.</p>
+                            <a href="" target="_blank" class="ver-mas">Ver Mas...</a>
+                        </nav> --> 
+
+                        <!-- <nav class="producto">
+                            <nav class="hola">
+                                <img class="fotuli" src="https://lastfm.freetls.fastly.net/i/u/ar0/5dec79541aa8f503be04900a54d408a0.jpg" alt="Taylor Swift">
+                                <h3>Taylor Swift</h3>
+                            </nav>
+                            <p>a cantante, compositora y productora estadounidense.  Firmó con la compañía discográfica independiente Big Machine Records y se convirtió en la artista más joven contratada por Sony/ATV Music Publishing House.</p>
+                            <a href="" target="_blank" class="ver-mas">Ver Mas...</a>
+                        </nav>
+                        <nav class="producto">
+                            <nav class="hola">
+                                <img class="fotuli" src="https://cdns-images.dzcdn.net/images/artist/d868d87e47d0597e6ba36d49eadec848/500x500.jpg" alt="Mac Miller">
+                                <h3> Mac Miller</h3>
+                            </nav>
+                            <p>fue un rapero, cantante y productor discográfico estadounidense.</p>
+                            <a href="" target="_blank" class="ver-mas">Ver Mas...</a>
+                        </nav>
+                        <nav class="producto">
+                            <nav class="hola">
+                                <img class="fotuli" src="https://i1.sndcdn.com/artworks-000634661911-cnfrwh-t500x500.jpg" alt="Dua Lipa">
+                                <h3> Dua Lipa </h3>
+                            </nav>
+           <p>cantante y compositora británica de etnia albano-kosovar. Después de trabajar como modelo, firmó con Warner Bros. Records en 2014 y lanzó su álbum debut homónimo en 2017. </p> -->
+           <!-- <a href="" target="_blank" class="ver-mas">Ver Mas...</a>
+       </nav>
+                <nav class="producto">
+                    <nav class="hola">
+                       <img class="fotuli" src="https://cdns-images.dzcdn.net/images/artist/c3cbc4309cf09aec8914784270f194e4/500x500.jpg" alt="albúm After hours">
+                       <h3>The Weekend</h3>
+                    </nav>
+                   <p> es un cantante, compositor y productor canadiense, conocido por éxitos como «Blinding Lights», «Starboy», «The Hills», «Can't Feel My Face» y «I Feel It Coming».1​</p>
+                   <a href="" target="_blank" class="ver-mas">Ver Mas...</a>
+               </nav>
+                   <nav class="producto">
+                        <nav class="hola">
+                           <img class="fotuli" src="https://media.pitchfork.com/photos/5f6a0edbf857eb06ef00efe6/1:1/w_500,h_500,c_limit/Miley-Cyrus.JPG" alt="albúm Plastic hearts">
+                           <h3>Miley Cyrus</h3>
+                        </nav>
+                       <p> cantante, compositora, actriz y productora de discos estadounidense. Destacada por su distintiva voz ronca,8 su música abarca una gama de estilos, desde pop y country pop hasta hip hop, experimental y rock.</p>
+                       <a href="" target="_blank" class="ver-mas">Ver Mas...</a>
+                   </nav>
+                   <nav class="producto">
+                    <nav class="hola">
+                        <img class="fotuli" src="https://i.pinimg.com/originals/51/32/82/5132827b672c2e7cf947bb21efb03475.jpg" alt="Arctic Monkeys">
+                        <h3> Arctic Monkeys</h3>
+                    </nav> -->
+                    <!-- <p> banda británica de rock, formada en Sheffield, Reino Unido.3​ El grupo está compuesto por el guitarrista principal y vocalista Alex Turner, el guitarrista Jamie Cook, el baterista Matt Helders, y con Nick O'Malley en el bajo.</p>
+                    <a href="detalle-artista.html" target="_blank" class="ver-mas">Ver Mas...</a> -->
