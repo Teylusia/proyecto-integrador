@@ -196,7 +196,7 @@ background-position: center;
     justify-content: space-between;
     align-items: center;
 }
-#footer {
+.footer {
     position:absolute;
     bottom:0;
     width:100%;
