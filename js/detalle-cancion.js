@@ -29,14 +29,20 @@ let  = document.querySelector(".contenido")
   //  `
 })
 
+let aPlaylist = window.localStorage
+localStorage.set.
+
 let agregarFavoritos = document.getElementById("agregarFavoritos")
-agregarFavoritos.addEventListener("click", function(){
-alert("Se agregó a tus favoritos")
+agregarFavoritos.addEventListener("click", function(){  //guardo en una variable el valor del boton
+    if (agregarFavoritos === "Agregar a mis favoritos"){
+        alert("Se agregó a tus favoritos")
+        document.getElementById ("agregarFavoritos").value = "Quitar de favoritos"
+    }else {
+        alert("Se quitó de tus favoritos")
+        document.getElementById ("agregarFavoritos").value = "Agregar a mis favoritos"
+    }
 })
-agregarFavoritos.addEventListener("click",function(){
-    let quitarFavoritos = document.getElementById("agregarFavoritos")
-    quitarFavoritos.innerHTML += `<a> Quitar de favoritos </a>`
-})
+
 
 //buscar en la clase como cambiar de contenido de l funcion
 
