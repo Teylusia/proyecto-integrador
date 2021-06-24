@@ -11,8 +11,8 @@ img{
     width: 100%;
 }
 
-.imagen{
-    width: 25%;
+.imagen-artista{
+    width: 17%;
     margin-top: 4px;
 }
 .nombre{
@@ -20,10 +20,30 @@ img{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .detalle-artista{
-    background-color: red;
-    display: flex;
-}
 
+    display: flex;
+    border-bottom: 30px;
+
+    align-items: center;
+    flex-direction: column;
+}
+.albums{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.album-nombre{
+    text-decoration: none;
+    background-color: goldenrod;
+    padding: 2px;
+}
+.foto-album{
+    display: flex;
+    width: 20%;
+    border: solid 7px rgba(0, 0, 0, 0.219);
+    background-color: goldenrod;
+}
 @media (min-width: 1024px){
     body{
         background-color: gold;
