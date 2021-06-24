@@ -3,39 +3,41 @@
     margin: 0;
     padding: 0;
 }
+.img{
+    width: 100%;
+}
 .body{
     font-family: 'Kanit', sans-serif;
 }
 .inicio{
     color: goldenrod;
     text-align: center;
+    margin-bottom: 6%;
+}
+.cancionsuli{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-right: 2%;    
+    list-style-type: none;
 }
 .nombre{
     display: flex;
     text-decoration: none;
-    color: white
+    color: white;
+    width: 170px;
+}
+ul li i{
+    width: 20px;
 }
 a:hover{
     color: rgb(255, 255, 109);
 }
-.canciones-favoritas{
-    width: 100%;
-    font-size: 14px;
-}
-.canciones-favoritas td{
-    border: 1px double goldenrod;
-    border-collapse: collapse;
-}
-@media(min-width:1024px){
-    .canciones-favoritas td{
-        border: none;
+
+@media(max-width: 460px){
+    .body{
+        background-size: 100%;
     }
-    .canciones-favoritas {
-        justify-content: space-around;
-        background-color: green;
-        
-    }
-    .inicio{
-        background-color: greenyellow;
-    }
+    
 }
