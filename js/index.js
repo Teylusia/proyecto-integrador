@@ -14,14 +14,14 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/albums
     let album = document.querySelector(".album")
     /*let artista = document.querySelector(".artista")*/
 
-    for(i = 1; i<9; i++){
+    for(i = 1; i<10; i++){
         album.innerHTML +=
     `
         <nav class= "producto">
             <nav class="hola">
                 <img class="fotuli" src= ${albums[i].cover_xl} alt = ${albums[i].title}>
-                <h3><a class="titulo-album "href="detalle-album.html" target="_blank">${albums[i].title}</a></h3>
-                <a href="detalle-album.html" target="_blank" class="ver-mas">Ver Mas...</a>
+                <h3><a class="titulo-album "href="detalle-album.html?id=${albums[i].id}" target="_blank">${albums[i].title}</a></h3>
+                <a href="detalle-album.html?id=${albums[i].id}" target="_blank" class="ver-mas">Ver Mas...</a>
                 </a>
             </nav>
         </nav>
@@ -54,7 +54,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/artist
         <nav class= "producto">
             <nav class="hola">
                 <img class="fotuli" src= "${artists[i].picture_xl}" alt = "${artists[i].name}">
-                <h3><a class="titulo-album "href="detalle-album.html" target="_blank">${artists[i].name}</a></h3>
+                <h3><a class="titulo-album "href="detalle-artista.html?id=${artists[i].id}" target="_blank">${artists[i].name}</a></h3>
                 <a href="detalle-artista.html?id=${artists[i].id}" target="_blank" class="ver-mas">Ver Mas...</a>
                 </a>
             </nav>
