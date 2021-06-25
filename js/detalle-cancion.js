@@ -43,10 +43,11 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`)
 })
 
 
+
 let onOff = document.querySelector('.fav') 
 let favoritasSongs = []
 
-let almacenoCancFav  = localStorage.getItem('favoritas')
+let almacenoCancFav  = localStorage.getItem('.fav')
 if (almacenoCancFav != null){
     favoritasSongs = JSON.parse(almacenoCancFav)
 }
@@ -58,10 +59,10 @@ if(favoritasSongs.includes(id)){
 onOff.addEventListener('click',function(e){
    e. preventDefault()
 
-      if(favoritasSongs.includes(id)){
-let songPosicion = favoritasSongs.indexOf(id)
-favoritasSongs.splice(songPosicion,1)
-fav.innerHTML = 'Agregar a mis favoritas'
+if(favoritasSongs.includes(id)){
+    let songPosicion = favoritasSongs.indexOf(id)
+    favoritasSongs.splice(songPosicion,1)
+    fav.innerHTML = 'Agregar a mis favoritas'
 } else {
      favoritasSongs.push(id)
      agregarSacar.innerHTML = 'Quitar de mis favoritas'

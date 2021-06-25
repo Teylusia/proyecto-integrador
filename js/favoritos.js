@@ -1,7 +1,9 @@
 let fotuli = document.querySelector(".fotuli")
 let datos = document.querySelector(".datos")
 
-let favoritasSongs = localStorage.getItem("favoritas")
+
+
+let favoritasSongs = localStorage.getItem("favoritasSongs")
 let arrayCanc = JSON.parse (favoritasSongs)
 
 if(arrayCanc.lenght === 0){
@@ -16,6 +18,9 @@ if(arrayCanc.lenght === 0){
             return respuesta.json()
         })
         .then(infoTrack =>{
+            console.log(infoTrack)
+            let track = infoTrack
+
             fotuli.innerHTML += 
             `
             <img src="${infoTrack.album.cover_xl}" alt=Album${arrayCanc[i]}></img>
@@ -28,5 +33,6 @@ if(arrayCanc.lenght === 0){
 
             `
         })
+        
     }
 }

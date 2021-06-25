@@ -10,42 +10,11 @@ img{
     font-family: 'Kanit', sans-serif;
     background-color: black;
 }
-.fotoPortada{
-    width: 25%;
-    padding: 2px;
-    background-color: goldenrod;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-.reproducir{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
+.artista{
+    color: black;
+    list-style-type: none;
     text-decoration: none;
-    list-style-type: none;
-}
-.reproducir2{
-    display: flex;
-    width: 30%;
-    list-style-type: none;
-    margin-right: 29%;
-    margin-left: 43.6%;
-    margin-top: 0.5%;
-    color: white;
-    font-size: 30px;
-}
 
-.reproducir2 li a{
-    text-decoration: none;
-    color: white;
-    font-weight: lighter;
-}
-.tituloCancion{
-    font-size: 200%;
-    color: white;
-    text-align: center;
 }
 .favoritos{
     display: flex;
@@ -72,67 +41,8 @@ img{
     color: white;
 
 }
-.infoCancion2{
-    text-align: center;
-    color: white;
-    font-size: 120%;
-}
-.infoCancion2 li a{
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-    font-size: 125%;
-}
-.masinformaciontexto{
-    list-style-type: none;
-    color: goldenrod;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.infoArtista{
-    margin-top: 2%;
-    font-size: larger;
-    text-align: center;
-}
-.linkarctic{
-    text-decoration: none;
-    color: white; 
-    margin-right: 3%;
-    text-align: center;
-}
-.fotoarctic{
-    width: 15%;
-    height: 60px;
-    margin-left: 41%;
-}
-.YouTube{
-    text-align: left;
-    margin-left: 2%;
-    margin-top: 8%;
-    color: goldenrod;
-    text-decoration: none;
-    padding: 2px;
-    font-size: larger;
-    text-decoration: none;
-    list-style-type: none;
-}
-.videosyoutube{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.videoyoutube{
-    display: flex
-}
-.infoExtra{
-    text-align: right;
-    margin-bottom: 1%;
-    font-size: small;
-}
-li a:hover{
-    color: rgb(255, 255, 109);
-}
+
+
 
 @media (max-width: 420px){
     .body{
