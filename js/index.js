@@ -14,7 +14,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/albums
     let album = document.querySelector(".album")
     /*let artista = document.querySelector(".artista")*/
 
-    for(i = 1; i<9; i++){
+    for(i = 1; i<10; i++){
         album.innerHTML +=
     `
         <nav class= "producto">
