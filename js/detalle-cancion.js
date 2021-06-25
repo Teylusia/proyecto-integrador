@@ -4,10 +4,10 @@ let id = objetoId.get('id');
 let foto = document.querySelector(".foto")
 let cancion = document.querySelector(".cancion")
 let artista = document.querySelector(".artista")
-let disco = document.querySelector(".disco")
+let disco = document.querySelector(".album")
 let player = document.querySelector(".player")
-let agregarFav = document.querySelector(".fav")
-let favoritas = document.querySelector(".fav2")
+let agregarFav = document.getElementById(".fav")
+let favoritas = document.getElementById(".fav2")
 
 fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`)
 
@@ -52,6 +52,7 @@ if (almacenoCancFav != null){
     favoritasSongs = JSON.parse(almacenoCancFav)
 }
 
+
 onOff.addEventListener('click',function(event){
    event.preventDefault() 
 
@@ -70,3 +71,4 @@ if(favoritasSongs.includes(id)){
 let cargoDatos = JSON.stringify(favoritasSongs)
 localStorage.setItem('fav', cargoDatos)
 })
+
