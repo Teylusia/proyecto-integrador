@@ -1,8 +1,6 @@
 let objeto = new URLSearchParams (location.search);
 let id = objeto.get("id");
 console.log(id)
-let nombre = objeto.get("name");
-let  imagen = objeto.get("picture");
 let  detalleArtista = document.querySelector(".detalle-artista");
 let albumsArtista = document.querySelector(".albums");
 
