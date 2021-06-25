@@ -14,20 +14,6 @@
     text-align: center;
     margin-bottom: 6%;
 }
-.cancionsuli{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 2%;
-    margin-right: 2%;    
-    list-style-type: none;
-}
-.nombre{
-    display: flex;
-    text-decoration: none;
-    color: white;
-    width: 170px;
-}
 ul li i{
     width: 20px;
 }
