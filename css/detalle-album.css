@@ -9,73 +9,40 @@ body{
 img{
     width: 100%;
 }
-.titulo-info{
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+.detalle-album{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.foto-album{
-    width: 15%;
-    padding: 2px;
-    background-color: goldenrod;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 50%;
-    justify-content: space-around;
+.portada-album{
+    width: 20%;
+    margin-top: 4px;
 }
-.album-nombre{
-    font-size: 24px;
-    color: black;
+.informacion{
     text-align: center;
+    color: darkred;
 }
-.descripcion{
-    text-align: justify;
-    padding-top: 10px;
-    color: white;
-}
-.canciones{
-padding-left: 10px;
-}
-.canciones li a{
-    margin: 10px;
-    list-style-type: square;
-    color: brown;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style-type: none;
-}
-.canciones li a{
+.informacion a{
     text-decoration: none;
-    color:goldenrod;
 }
-.canciones li a:hover{
-    text-decoration: underline;
-    color:white;
+.informacion h5{
+    color: darkred;
 }
-.genero{
-    text-decoration: none;
-    color: orange;
+.playlist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+
 }
-.artista{
-    text-decoration: none;
-    color: orange;
+.playlist a{
+    text-decoration: none ;
+    color: darkgoldenrod; 
 }
-.genero:hover{
-    color: darkgoldenrod;
-    text-decoration: underline;
+.album.cancion{
+    color: darkred;
+    
 }
-.artista:hover{
-    color: darkgoldenrod;
-    text-decoration: underline;
-}
-.album-canciones{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-    .informacion{
-        display: block;
-    }
 @media (min-width: 1024px){
     .informacion{
         display: flex;
@@ -90,7 +57,7 @@ padding-left: 10px;
         background-color: goldenrod;
     }
     body{
-        background-image: url(../img/Arctic\ Monkeys\,\ Lewis\ Capaldi\,\ and\ more\ donate\ items\ to\ NHS\ Fest\ raffle.jpg);
+        background-color: gold;
         background-size: 100%;
     }
 }
