@@ -52,22 +52,21 @@ if (almacenoCancFav != null){
     favoritasSongs = JSON.parse(almacenoCancFav)
 }
 
-if(favoritasSongs.includes(id)){
-  fav.innerHTML =  'Quitar de mis favoritos'
-}
-
-onOff.addEventListener('click',function(){
-   function preventDefault()
+onOff.addEventListener('click',function(event){
+   event.preventDefault() 
 
 if(favoritasSongs.includes(id)){
     let songPosicion = favoritasSongs.indexOf(id)
     favoritasSongs.splice(songPosicion,1)
-    fav.innerHTML = 'Agregar a mis favoritas'
+    onOff.innerHTML = 
+    ' Agregar a mis favoritas '
+
 } else {
      favoritasSongs.push(id)
-     agregarSacar.innerHTML = 'Quitar de mis favoritas'
+     onOff.innerHTML = 
+     ' Quitar de mis favoritas '
 }
 
 let cargoDatos = JSON.stringify(favoritasSongs)
-localStorage.setItem('favoritas', cargoDatos)
+localStorage.setItem('fav', cargoDatos)
 })

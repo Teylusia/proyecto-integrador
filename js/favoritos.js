@@ -19,7 +19,6 @@ if(arrayCanc.lenght === 0){
         })
         .then(infoTrack =>{
             console.log(infoTrack)
-            let track = infoTrack
 
             fotuli.innerHTML += 
             `
