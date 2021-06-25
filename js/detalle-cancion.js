@@ -44,7 +44,7 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`)
 
 
 
-let onOff = document.querySelector('.fav') 
+let onOff = document.getElementById('.fav') 
 let favoritasSongs = []
 
 let almacenoCancFav  = localStorage.getItem('.fav')
@@ -56,8 +56,8 @@ if(favoritasSongs.includes(id)){
   fav.innerHTML =  'Quitar de mis favoritos'
 }
 
-onOff.addEventListener('click',function(e){
-   e. preventDefault()
+onOff.addEventListener('click',function(){
+   function preventDefault()
 
 if(favoritasSongs.includes(id)){
     let songPosicion = favoritasSongs.indexOf(id)
