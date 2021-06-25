@@ -18,14 +18,15 @@ if(arrayCanc.lenght === 0){
         .then(infoTrack =>{
             fotuli.innerHTML += 
             `
-            
+            <img src="${infoTrack.album.cover_xl}" alt=Album${arrayCanc[i]}></img>
             `
 
             datos.innerHTML +=
             `
+            <li><a href="detail-track.html?id=${infoTrack.id}"><h3>${infoTrack.title}</h3></a><li/>
+            <li><a href="detail-album.html?id=${infoTrack.album.id}">${infoTrack.album.title}</a></li>
 
             `
-        
         })
     }
 }
