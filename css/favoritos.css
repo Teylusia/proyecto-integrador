@@ -14,10 +14,6 @@
     text-align: center;
     margin-bottom: 6%;
 }
-a:hover{
-    color: rgb(255, 255, 109);
-}
-
 @media(max-width: 460px){
     .body{
         background-size: 100%;
