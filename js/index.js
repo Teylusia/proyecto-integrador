@@ -87,7 +87,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/tracks
         <nav class= "producto">
             <nav class="hola">
                 <img class="fotuli" src= ${canciones[i].album.cover_xl} alt = ${canciones[i].title}>
-                <h3><a class="titulo-album "href="detalle-album.html" target="_blank">${canciones[i].title}</a></h3>
+                <h3><a class="titulo-album "href="detalle-cancion.html?id=${canciones[i].id}" target="_blank">${canciones[i].title}</a></h3>
                 <h4><a class="titulo-album "href="detalle-album.html" target="_blank">${canciones[i].artist.name}</a>
                 <br>
                 <a href="detalle-album.html" target="_blank" class="ver-mas">Ver Mas...</a>
