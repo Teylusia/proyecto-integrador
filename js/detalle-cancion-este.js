@@ -37,6 +37,7 @@ fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${id}`)
     <a href="detail-album.html?id= ${track.album.id}">${track.album.title} </a>
     
     `
+
 })
 
 
@@ -56,7 +57,7 @@ onOff.addEventListener('click',function(e){
    e. preventDefault()
 
       if(favoritasSongs.includes(id)){
-let songPosicion = favoritasSongs.indexOf(id)
+let songPosicion = favoritasSongs. indexOf(id)
 favoritasSongs.splice(songPosicion,1)
 fav.innerHTML = 'Agregar a mis favoritas'
 } else {
